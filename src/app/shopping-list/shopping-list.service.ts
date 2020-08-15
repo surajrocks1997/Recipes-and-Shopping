@@ -10,11 +10,11 @@ export class ShoppingListService {
     new Ingredient('Tomatoes', 10),
   ];
 
-  getIngredients() {
+  getIngredients(): Ingredient[] {
     return this.ingredients.slice();
   }
 
-  addIngredient(ingredient: Ingredient) {
+  addIngredient(ingredient: Ingredient): void {
     this.ingredients.push(ingredient);
     this.ingredientsChanged.emit(this.ingredients.slice());
   }
