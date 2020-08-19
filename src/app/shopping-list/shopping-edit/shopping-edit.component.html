@@ -40,6 +40,8 @@
             class="btn btn-danger"
             style="margin-right: 5px;"
             type="button"
+            (click)="onDelete()"
+            *ngIf="editMode"
           >
             Delete
           </button>
