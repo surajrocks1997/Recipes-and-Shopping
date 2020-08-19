@@ -16,7 +16,7 @@ export class RecipeService {
     new Recipe(
       'Lasagna',
       'So Tasty',
-      'https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg',
+      'https://www.365daysofbakingandmore.com/wp-content/uploads/2011/02/Lasagna-FEATURE.jpg',
       [new Ingredient('Cheese', 2), new Ingredient('Potato', 1)]
     ),
   ];
