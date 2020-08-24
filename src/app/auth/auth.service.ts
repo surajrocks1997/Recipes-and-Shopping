@@ -52,7 +52,7 @@ export class AuthService {
     return this.http
       .post<AuthResponseData>(
         'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=' +
-          +environment.firebaseAPIKey,
+          environment.firebaseAPIKey,
         {
           email,
           password,
